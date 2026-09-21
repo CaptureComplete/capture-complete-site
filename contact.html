@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact · Capture Complete</title>
+<meta name="description" content="Vraag direct een offerte aan bij Capture Complete via het formulier, of neem rechtstreeks contact op.">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<link rel="icon" href="assets/favicon.ico">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header no-hero">
+  <a href="index.html" class="logo">
+    <img src="assets/logo-icon-hollow-c.png" alt="Capture Complete" class="logo-icon">
+    <span class="logo-word">CAPTURE <b>COMPLETE</b></span>
+  </a>
+  <button class="nav-toggle" aria-label="Menu openen" aria-expanded="false"><span></span></button>
+  <nav class="main-nav">
+    <a href="index.html">Home</a>
+    <a href="binnenvliegen.html">Binnenvliegen</a>
+    <a href="werk.html">Werk</a>
+    <a href="kunst.html">Kunst</a>
+    <a href="over-mij.html">Over mij</a>
+    <a href="contact.html" class="is-active">Contact</a>
+    <a href="contact.html#offerte" class="nav-cta">Offerte</a>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <p class="eyebrow">Contact</p>
+    <h1>Laten we praten over je project.</h1>
+    <p class="lede">Vul het formulier in voor een offerte, of neem rechtstreeks contact op: ik reageer meestal binnen 24 uur.</p>
+  </div>
+</section>
+
+<section class="section" id="offerte">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="reveal">
+        <form id="offerte-form" action="https://formspree.io/f/mgavebqj" method="POST">
+          <input type="hidden" name="_subject" value="Nieuwe offerteaanvraag · Capture Complete">
+          <input type="text" name="_gotcha" style="display:none">
+
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="naam">Naam</label>
+              <input type="text" id="naam" name="Naam" required autocomplete="name">
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="E-mail" required autocomplete="email">
+            </div>
+          </div>
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="telefoon">Telefoon</label>
+              <input type="tel" id="telefoon" name="Telefoon" autocomplete="tel">
+            </div>
+            <div class="form-group">
+              <label for="type-project">Type project</label>
+              <select id="type-project" name="Type project" required>
+                <option value="">Kies een optie</option>
+                <option value="Vastgoed">Vastgoed</option>
+                <option value="Binnenvliegen">Binnenvliegen</option>
+                <option value="Bruiloft/portret">Bruiloft of portret</option>
+                <option value="Print">Print / kunst</option>
+                <option value="Anders">Anders</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="bericht">Bericht</label>
+            <textarea id="bericht" name="Bericht" rows="5" required placeholder="Vertel kort over je project: locatie, gewenste datum, wat je precies zoekt."></textarea>
+          </div>
+          <div class="form-group" style="display:flex; gap:10px; align-items:flex-start;">
+            <input type="checkbox" id="akkoord" required style="width:auto; margin-top:4px;">
+            <label for="akkoord" style="text-transform:none; letter-spacing:0; font-family:var(--f-body); font-size:13.5px; color:var(--muted);">Ik ga akkoord met de <a href="privacy.html" style="text-decoration:underline;">privacyverklaring</a>.</label>
+          </div>
+          <button type="submit" class="btn btn-coral btn-block">Verstuur aanvraag</button>
+          <div id="form-status" class="form-status" role="status"></div>
+          <p class="form-note">Reactie meestal binnen 24 uur.</p>
+        </form>
+      </div>
+
+      <div class="reveal">
+        <div class="contact-side">
+          <div class="contact-method">
+            <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6 12 13 2 6"/><path d="M2 6h20v12H2z"/></svg></span>
+            <div><div class="label">E-mail</div><div class="value"><a href="mailto:info@capturecomplete.nl">info@capturecomplete.nl</a></div></div>
+          </div>
+          <div class="contact-method">
+            <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+            <div><div class="label">Telefoon</div><div class="value"><a href="tel:+31623763653">06 23 76 36 53</a></div></div>
+          </div>
+          <div class="contact-method">
+            <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+            <div><div class="label">Standplaats</div><div class="value">Den Haag</div></div>
+          </div>
+          <p class="muted" style="margin-top:24px; font-size:15px;">Meer weten over wie er achter Capture Complete zit? Bekijk de <a href="over-mij.html" style="text-decoration:underline;">pagina over mij</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo">
+          <img src="assets/logo-icon-hollow-c.png" alt="Capture Complete" class="logo-icon">
+          <span class="logo-word">CAPTURE <b>COMPLETE</b></span>
+        </div>
+        <p>Van klik tot compleet. Drone foto &amp; video voor bouwprojecten, vastgoed en meer, vanuit Den Haag.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pagina's</h4>
+        <ul>
+          <li><a href="binnenvliegen.html">Binnenvliegen</a></li>
+          <li><a href="werk.html">Werk</a></li>
+          <li><a href="kunst.html">Kunst</a></li>
+          <li><a href="over-mij.html">Over mij</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:info@capturecomplete.nl">info@capturecomplete.nl</a></li>
+          <li><a href="contact.html">Contactformulier</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Juridisch</h4>
+        <ul>
+          <li><a href="privacy.html">Privacyverklaring</a></li>
+          <li class="kvk-note">KVK: 96751932</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="copyright-year"></span> Capture Complete · Guido van Kuik</span>
+      <div class="legal-links">
+        <a href="privacy.html">Privacyverklaring</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script>(function(){var y=new Date().getFullYear();document.getElementById('copyright-year').textContent = y>2025 ? '2025–'+y : '2025';})();</script>
+<script src="js/main.js"></script>
+</body>
+</html>

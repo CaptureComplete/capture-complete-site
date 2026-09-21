@@ -1,0 +1,2 @@
+Zet hier je eigen video's, foto's en logo's neer (bijv. hero.mp4, restaurant-vlucht.mp4, logo-klant-1.png).
+Comprimeer alles vóór je het hier neerzet — zie README.txt in de hoofdmap voor tools en instructies.
